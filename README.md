@@ -11,7 +11,7 @@ leetcode题库
 [6 	Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion) | | | | |  |
 [7 	整数反转](https://leetcode-cn.com/problems/reverse-integer) |简单 |0ms |8.2M |c++ |lc_07.hpp  |
 [8 	字符串转换整数 (atoi)](https://leetcode-cn.com/problems/reverse-integer) | | | | |  |
-[9 	回文数](https://leetcode-cn.com/problems/palindrome-number) | | | | |  |
+[9 	回文数](https://leetcode-cn.com/problems/palindrome-number) |简单 | 12ms| 8.1M| c++ | lc_09.hpp |
 [10 正则表达式匹配 ](https://leetcode-cn.com/problems/regular-expression-matching) | | | | |  |
 [11 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water) | | | | |  |
 [12 整数转罗马数字](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
@@ -22,14 +22,14 @@ leetcode题库
 [17 电话号码的字母组合](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [18 四数之和](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [19 删除链表的倒数第N个节点](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
-[20 有效的括号](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
+[20 有效的括号](https://leetcode-cn.com/problems/add-two-numbers) | 简单| 0ms | 8.6M | c++ | lc_20.hpp  |
 [21 合并两个有序链表](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [22 括号生成](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [23 合并K个排序链表](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [24 两两交换链表中的节点](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [25 K 个一组翻转链表 ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
-[26 删除排序数组中的重复项 ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
-[27 移除元素](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
+[26 删除排序数组中的重复项 ](https://leetcode-cn.com/problems/add-two-numbers) |简单 | 28ms | 10.1M| c++ | lc_26.hpp  |
+[27 移除元素](https://leetcode-cn.com/problems/add-two-numbers) |简单 | 0ms | 8.5M | c++ | lc_27.hpp  |
 [28 实现 strStr()](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [29 两数相除](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [30 串联所有单词的子串](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
