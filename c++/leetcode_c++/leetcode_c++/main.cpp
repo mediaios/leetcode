@@ -48,6 +48,14 @@ int main(int argc, const char * argv[]) {
 //    s09->isPalindrome(9) ? cout<<"9: true\n" : cout<<"9: false\n";
     
     
+    Solution13 *s13 = new Solution13();
+    cout<<"III: "<<s13->romanToInt("III")<<endl;
+    cout<<"IV: "<<s13->romanToInt("IV")<<endl;
+    cout<<"IX: "<<s13->romanToInt("IX")<<endl;
+    cout<<"LVIII: "<<s13->romanToInt("LVIII")<<endl;
+    cout<<"MCMXCIV: "<<s13->romanToInt("MCMXCIV")<<endl;
+    cout<<"MCM: "<<s13->romanToInt("MCM")<<endl;
+    
 //    Solution20 *s20 = new Solution20();
 //    s20->isValid("()") ? cout<<"(): true\n" : cout<<"(): false \n";
 //    s20->isValid("()[]{}") ? cout<<"()[]{}: true\n" : cout<<"()[]{}: false \n";
@@ -61,8 +69,8 @@ int main(int argc, const char * argv[]) {
 //    cout<<"{1,1,1,2,2,3,3,4} remove duplicates:"<<s26->removeDuplicates(nums)<<endl;
     
     
-    Solution27 *s27 = new Solution27();
-    vector<int> nums = {1,1,1,2,2,3,3,4};
-    cout<<"{1,1,1,2,2,3,3,4} remove duplicates:"<<s27->removeElement(nums,3)<<endl;
+//    Solution27 *s27 = new Solution27();
+//    vector<int> nums = {1,1,1,2,2,3,3,4};
+//    cout<<"{1,1,1,2,2,3,3,4} remove duplicates:"<<s27->removeElement(nums,3)<<endl;
     return 0;
 }
