@@ -40,7 +40,7 @@ leetcode题库
 [35 搜索插入位置](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [36 有效的数独 ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [37 解数独](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
-[38 报数 ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
+[38 报数 ](https://leetcode-cn.com/problems/add-two-numbers) | 简单| 12ms | 10.6M|c++ | lc_38.hpp  |
 [39 组合总和 ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [40 组合总和 II](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [41 缺失的第一个正数 ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
@@ -90,7 +90,7 @@ leetcode题库
 [85 最大矩形](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [86 分隔链表 ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [87 扰乱字符串](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
-[88 合并两个有序数组 ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
+[88 合并两个有序数组 ](https://leetcode-cn.com/problems/add-two-numbers) | 简单| 4ms | 8.8M |c++ | lc_88.hpp |
 [89 格雷编码](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [90 子集 II ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [91 解码方法 ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |

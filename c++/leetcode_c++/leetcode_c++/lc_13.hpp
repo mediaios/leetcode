@@ -2,8 +2,8 @@
 //  lc_13.hpp
 //  leetcode_c++
 //
-//  Created by ethan on 2019/9/20.
-//  Copyright © 2019 ucloud. All rights reserved.
+//  Created by mediaios on 2019/9/20.
+//  Copyright © 2019 mediaios. All rights reserved.
 //
 
 #ifndef lc_13_hpp
