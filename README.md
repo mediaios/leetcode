@@ -68,7 +68,7 @@ leetcode题库
 [63 不同路径 II](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [64 最小路径和 ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [65 有效数字  ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
-[66 加一 ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
+[66 加一 ](https://leetcode-cn.com/problems/add-two-numbers) | 简单| 4ms | 8.6ms | c++ | lc_66.hpp |
 [67 二进制求和 ](https://leetcode-cn.com/problems/add-two-numbers) | 简单| 8ms| 8.8M| c++ | lc_67.hpp |
 [68 文本左右对齐](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [69 x 的平方根 ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
