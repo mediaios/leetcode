@@ -71,7 +71,7 @@ leetcode题库
 [66 加一 ](https://leetcode-cn.com/problems/add-two-numbers) | 简单| 4ms | 8.6ms | c++ | lc_66.hpp |
 [67 二进制求和 ](https://leetcode-cn.com/problems/add-two-numbers) | 简单| 8ms| 8.8M| c++ | lc_67.hpp |
 [68 文本左右对齐](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
-[69 x 的平方根 ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
+[69 x 的平方根 ](https://leetcode-cn.com/problems/add-two-numbers) | 简单 | 32ms | 8.1M |c++ | lc_69.hpp  |
 [70 爬楼梯](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [71 简化路径](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [72 编辑距离](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |

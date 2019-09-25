@@ -19,6 +19,7 @@
 #include "lc_58.hpp"
 #include "lc_66.hpp"
 #include "lc_67.hpp"
+#include "lc_69.hpp"
 #include "lc_88.hpp"
 #include <vector>
 
@@ -62,9 +63,9 @@ int main(int argc, const char * argv[]) {
 //    cout<<"MCMXCIV: "<<s13->romanToInt("MCMXCIV")<<endl;
 //    cout<<"MCM: "<<s13->romanToInt("MCM")<<endl;
     
-    vector<string> v1 = {"flower","flow","flight"};
-    Solution14 *s14 = new Solution14();
-    cout<<s14->longestCommonPrefix(v1)<<endl;
+//    vector<string> v1 = {"flower","flow","flight"};
+//    Solution14 *s14 = new Solution14();
+//    cout<<s14->longestCommonPrefix(v1)<<endl;
     
 //    Solution20 *s20 = new Solution20();
 //    s20->isValid("()") ? cout<<"(): true\n" : cout<<"(): false \n";
@@ -105,6 +106,16 @@ int main(int argc, const char * argv[]) {
 //    cout<<"11,1: ----> "<<s67->addBinary("11", "1")<<endl;
 //    cout<<"1010,1011: ----> "<<s67->addBinary("1010", "1011")<<endl;
 //    cout<<"1111,1111: ----> "<<s67->addBinary("1111", "1111")<<endl;
+    
+    
+    Solution69 *s69 = new Solution69();
+    cout<<"0: "<<s69->mySqrt(0)<<endl;
+    cout<<"4: "<<s69->mySqrt(4)<<endl;
+    cout<<"8: "<<s69->mySqrt(8)<<endl;
+    cout<<"2147395600: "<<s69->mySqrt(2147395600)<<endl;
+    cout<<"2147395599: "<<s69->mySqrt(2147395599)<<endl;
+    
+    
     
     /*
     nums1 = [1,2,3,0,0,0], m = 3
