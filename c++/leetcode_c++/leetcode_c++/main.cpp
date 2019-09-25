@@ -11,6 +11,7 @@
 #include "lc_07.hpp"
 #include "lc_09.hpp"
 #include "lc_13.hpp"
+#include "lc_14.hpp"
 #include "lc_20.hpp"
 #include "lc_26.hpp"
 #include "lc_27.hpp"
@@ -61,6 +62,10 @@ int main(int argc, const char * argv[]) {
 //    cout<<"MCMXCIV: "<<s13->romanToInt("MCMXCIV")<<endl;
 //    cout<<"MCM: "<<s13->romanToInt("MCM")<<endl;
     
+    vector<string> v1 = {"flower","flow","flight"};
+    Solution14 *s14 = new Solution14();
+    cout<<s14->longestCommonPrefix(v1)<<endl;
+    
 //    Solution20 *s20 = new Solution20();
 //    s20->isValid("()") ? cout<<"(): true\n" : cout<<"(): false \n";
 //    s20->isValid("()[]{}") ? cout<<"()[]{}: true\n" : cout<<"()[]{}: false \n";
@@ -83,10 +88,10 @@ int main(int argc, const char * argv[]) {
 //    Solution38 *s38 = new Solution38();
 //    cout<<s38->countAndSay(30)<<endl;
     
-    Solution58 *s58 = new Solution58();
-    cout<<"Hello World: "<<s58->lengthOfLastWord("Hello World")<<endl;
-    cout<<"a : "<<s58->lengthOfLastWord("a ")<<endl;
-    cout<<"a a : "<<s58->lengthOfLastWord("a a ")<<endl;
+//    Solution58 *s58 = new Solution58();
+//    cout<<"Hello World: "<<s58->lengthOfLastWord("Hello World")<<endl;
+//    cout<<"a : "<<s58->lengthOfLastWord("a ")<<endl;
+//    cout<<"a a : "<<s58->lengthOfLastWord("a a ")<<endl;
     
 //    vector<int> v1 = {9,9,9,9};
 //    Solution66 *s66 = new Solution66();

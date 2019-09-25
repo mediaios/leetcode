@@ -16,7 +16,7 @@ leetcode题库
 [11 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water) | | | | |  |
 [12 整数转罗马数字](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [13 罗马数字转整数](https://leetcode-cn.com/problems/add-two-numbers) | 简单 |20ms | 8.4M| c++ | lc_13.hpp |
-[14 最长公共前缀](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
+[14 最长公共前缀](https://leetcode-cn.com/problems/add-two-numbers) | 简单| 8ms | 8.7M | c++ | lc_14.hpp |
 [15 三数之和](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [16 最接近的三数之和 ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [17 电话号码的字母组合](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
