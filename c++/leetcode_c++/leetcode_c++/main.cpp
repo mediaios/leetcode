@@ -15,6 +15,7 @@
 #include "lc_26.hpp"
 #include "lc_27.hpp"
 #include "lc_38.hpp"
+#include "lc_58.hpp"
 #include "lc_66.hpp"
 #include "lc_67.hpp"
 #include "lc_88.hpp"
@@ -82,14 +83,18 @@ int main(int argc, const char * argv[]) {
 //    Solution38 *s38 = new Solution38();
 //    cout<<s38->countAndSay(30)<<endl;
     
+    Solution58 *s58 = new Solution58();
+    cout<<"Hello World: "<<s58->lengthOfLastWord("Hello World")<<endl;
+    cout<<"a : "<<s58->lengthOfLastWord("a ")<<endl;
+    cout<<"a a : "<<s58->lengthOfLastWord("a a ")<<endl;
     
-    vector<int> v1 = {9,9,9,9};
-    Solution66 *s66 = new Solution66();
-    s66->plusOne(v1);
-    for (int i = 0; i < v1.size(); i++) {
-        cout<<v1[i]<<" ";
-    }
-    cout<<endl;
+//    vector<int> v1 = {9,9,9,9};
+//    Solution66 *s66 = new Solution66();
+//    s66->plusOne(v1);
+//    for (int i = 0; i < v1.size(); i++) {
+//        cout<<v1[i]<<" ";
+//    }
+//    cout<<endl;
     
 //    Solution67 *s67 = new Solution67();
 //    cout<<"11,1: ----> "<<s67->addBinary("11", "1")<<endl;

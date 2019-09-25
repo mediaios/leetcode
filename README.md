@@ -60,7 +60,7 @@ leetcode题库
 [55 跳跃游戏 ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [56 合并区间](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [57 插入区间](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
-[58 最后一个单词的长度](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
+[58 最后一个单词的长度](https://leetcode-cn.com/problems/add-two-numbers) | 简单 | 4ms | 8.7M | c++ |  lc_58.hpp |
 [59 螺旋矩阵 II ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [60 第k个排列 ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [61 旋转链表](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
