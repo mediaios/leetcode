@@ -15,6 +15,7 @@
 #include "lc_26.hpp"
 #include "lc_27.hpp"
 #include "lc_38.hpp"
+#include "lc_67.hpp"
 #include "lc_88.hpp"
 #include <vector>
 
@@ -77,9 +78,14 @@ int main(int argc, const char * argv[]) {
     
     
     
-    Solution38 *s38 = new Solution38();
-    cout<<s38->countAndSay(30)<<endl;
+//    Solution38 *s38 = new Solution38();
+//    cout<<s38->countAndSay(30)<<endl;
     
+    
+    Solution67 *s67 = new Solution67();
+    cout<<"11,1: ----> "<<s67->addBinary("11", "1")<<endl;
+    cout<<"1010,1011: ----> "<<s67->addBinary("1010", "1011")<<endl;
+    cout<<"1111,1111: ----> "<<s67->addBinary("1111", "1111")<<endl;
     
     /*
     nums1 = [1,2,3,0,0,0], m = 3
