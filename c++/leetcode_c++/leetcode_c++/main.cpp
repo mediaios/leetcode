@@ -21,6 +21,7 @@
 #include "lc_66.hpp"
 #include "lc_67.hpp"
 #include "lc_69.hpp"
+#include "lc_70.hpp"
 #include "lc_83.hpp"
 #include "lc_88.hpp"
 #include "MILinkList.hpp"
@@ -140,6 +141,9 @@ int main(int argc, const char * argv[]) {
 //    cout<<"2147395600: "<<s69->mySqrt(2147395600)<<endl;
 //    cout<<"2147395599: "<<s69->mySqrt(2147395599)<<endl;
     
+    Solution70 *s70 = new Solution70();
+    cout<<s70->climbStairs(44)<<endl;
+    
     /*
     nums1 = [1,2,3,0,0,0], m = 3
     nums2 = [2,5,6],       n = 3
@@ -174,27 +178,27 @@ int main(int argc, const char * argv[]) {
     
     
     
-    ListNode *l1 = new ListNode(-1);
-    ListNode *n2 = new ListNode(0);
-    ListNode *n3 = new ListNode(0);
-    ListNode *n4 = new ListNode(0);
-    ListNode *n5 = new ListNode(0);
-    ListNode *n6 = new ListNode(3);
-    ListNode *n7 = new ListNode(3);
-    l1->next = n2;
-    n2->next = n3;
-    n3->next = n4;
-    n4->next = n5;
-    n5->next = n6;
-    n6->next = n7;
-    
-    Solution83 *s83 = new Solution83();
-    ListNode *l = s83->deleteDuplicates(l1);
-    while (l != NULL) {
-        cout<<l->val<<" ";
-        l = l->next;
-    }
-    cout<<endl;
+//    ListNode *l1 = new ListNode(-1);
+//    ListNode *n2 = new ListNode(0);
+//    ListNode *n3 = new ListNode(0);
+//    ListNode *n4 = new ListNode(0);
+//    ListNode *n5 = new ListNode(0);
+//    ListNode *n6 = new ListNode(3);
+//    ListNode *n7 = new ListNode(3);
+//    l1->next = n2;
+//    n2->next = n3;
+//    n3->next = n4;
+//    n4->next = n5;
+//    n5->next = n6;
+//    n6->next = n7;
+//
+//    Solution83 *s83 = new Solution83();
+//    ListNode *l = s83->deleteDuplicates(l1);
+//    while (l != NULL) {
+//        cout<<l->val<<" ";
+//        l = l->next;
+//    }
+//    cout<<endl;
     
 //    
 //    ListNode *l2 = new ListNode(1);
