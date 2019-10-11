@@ -23,7 +23,7 @@ leetcode题库
 [18 四数之和](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [19 删除链表的倒数第N个节点](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [20 有效的括号](https://leetcode-cn.com/problems/add-two-numbers) | 简单| 0ms | 8.6M | c++ | lc_20.hpp  |
-[21 合并两个有序链表](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
+[21 合并两个有序链表](https://leetcode-cn.com/problems/add-two-numbers) | 简单| 12ms | 9M | c++ | lc_21.hpp |
 [22 括号生成](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [23 合并K个排序链表](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [24 两两交换链表中的节点](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
@@ -85,7 +85,7 @@ leetcode题库
 [80 删除排序数组中的重复项 II ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [81 搜索旋转排序数组 II ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [82 删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
-[83 删除排序链表中的重复元素 ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
+[83 删除排序链表中的重复元素 ](https://leetcode-cn.com/problems/add-two-numbers) | 简单 | 12ms | 9.6M | c++ | lc_83.hpp  |
 [84 柱状图中最大的矩形](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [85 最大矩形](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |
 [86 分隔链表 ](https://leetcode-cn.com/problems/add-two-numbers) | | | | |  |

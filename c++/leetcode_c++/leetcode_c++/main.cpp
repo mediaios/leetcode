@@ -21,7 +21,9 @@
 #include "lc_66.hpp"
 #include "lc_67.hpp"
 #include "lc_69.hpp"
+#include "lc_83.hpp"
 #include "lc_88.hpp"
+#include "MILinkList.hpp"
 #include <vector>
 
 void printVector(vector<int> &array)
@@ -35,6 +37,7 @@ void printVector(vector<int> &array)
         }
     }
 }
+
 
 int main(int argc, const char * argv[]) {
     
@@ -76,6 +79,27 @@ int main(int argc, const char * argv[]) {
 //    s20->isValid("{[]}") ? cout<<"{[]}: true\n" : cout<<"{[]}: false \n";
     
     
+    
+//    ListNode *l1 = new ListNode(1);
+//    ListNode *n2 = new ListNode(2);
+//    ListNode *n3 = new ListNode(4);
+//    l1->next = n2;
+//    n2->next = n3;
+//    
+//    ListNode *l2 = new ListNode(1);
+//    ListNode *m2 = new ListNode(3);
+//    ListNode *m3 = new ListNode(4);
+//    l2->next = m2;
+//    m2->next = m3;
+//    
+//    Solution21 *s21 = new Solution21();
+//    ListNode *l = s21->mergeTwoList2(l1, l2);
+//    while (l != NULL) {
+//        cout<<l->val<<" ";
+//        l = l->next;
+//    }
+//    cout<<endl;
+    
 //    Solution26 *s26 = new Solution26();
 //    vector<int> nums = {1,1,1,2,2,3,3,4};
 //    cout<<"{1,1,1,2,2,3,3,4} remove duplicates:"<<s26->removeDuplicates(nums)<<endl;
@@ -109,14 +133,12 @@ int main(int argc, const char * argv[]) {
 //    cout<<"1111,1111: ----> "<<s67->addBinary("1111", "1111")<<endl;
     
     
-    Solution69 *s69 = new Solution69();
-    cout<<"0: "<<s69->mySqrt(0)<<endl;
-    cout<<"4: "<<s69->mySqrt(4)<<endl;
-    cout<<"8: "<<s69->mySqrt(8)<<endl;
-    cout<<"2147395600: "<<s69->mySqrt(2147395600)<<endl;
-    cout<<"2147395599: "<<s69->mySqrt(2147395599)<<endl;
-    
-    
+//    Solution69 *s69 = new Solution69();
+//    cout<<"0: "<<s69->mySqrt(0)<<endl;
+//    cout<<"4: "<<s69->mySqrt(4)<<endl;
+//    cout<<"8: "<<s69->mySqrt(8)<<endl;
+//    cout<<"2147395600: "<<s69->mySqrt(2147395600)<<endl;
+//    cout<<"2147395599: "<<s69->mySqrt(2147395599)<<endl;
     
     /*
     nums1 = [1,2,3,0,0,0], m = 3
@@ -137,5 +159,57 @@ int main(int argc, const char * argv[]) {
 //        cout<<nums1[i]<<" ";
 //    }
 //    cout<<endl;
+    
+    
+//    // 测试链表
+//    int a = 0;
+//    int *p = &a;
+//    MILinkList li;
+//    li.insert(5, 0);
+//    li.insert(4, 1);
+//    li.insert(12, 2);
+//    cout<<"链表长度："<<li.length()<<endl;
+//    cout<<"链表各个元素是:"<<endl;
+//    li.printList();
+    
+    
+    
+    ListNode *l1 = new ListNode(-1);
+    ListNode *n2 = new ListNode(0);
+    ListNode *n3 = new ListNode(0);
+    ListNode *n4 = new ListNode(0);
+    ListNode *n5 = new ListNode(0);
+    ListNode *n6 = new ListNode(3);
+    ListNode *n7 = new ListNode(3);
+    l1->next = n2;
+    n2->next = n3;
+    n3->next = n4;
+    n4->next = n5;
+    n5->next = n6;
+    n6->next = n7;
+    
+    Solution83 *s83 = new Solution83();
+    ListNode *l = s83->deleteDuplicates(l1);
+    while (l != NULL) {
+        cout<<l->val<<" ";
+        l = l->next;
+    }
+    cout<<endl;
+    
+//    
+//    ListNode *l2 = new ListNode(1);
+//    ListNode *m2 = new ListNode(3);
+//    ListNode *m3 = new ListNode(4);
+//    l2->next = m2;
+//    m2->next = m3;
+//    
+
+//    ListNode *l = s21->mergeTwoList2(l1, l2);
+//    while (l != NULL) {
+//        cout<<l->val<<" ";
+//        l = l->next;
+//    }
+//    cout<<endl;
+    
     return 0;
 }
