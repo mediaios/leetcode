@@ -10,6 +10,7 @@
 #define lc_70_hpp
 
 #include <stdio.h>
+#include <map>
 
 class Solution70{
 public:
@@ -36,22 +37,46 @@ public:
             2.  1 阶 + 2 阶
             3.  2 阶 + 1 阶
      */
+    
+    int climb_stairs(int i,int n,vector<int> &demo){
+        if(i > n) return 0;
+        if(i == n) return 1;
+        if (demo[i] > 0) return demo[i];
+        demo[i] = climb_stairs(i+1, n, demo)+climb_stairs(i+2, n, demo);
+        return demo[i];
+    }
+    
     int climbStairs(int n){
         // 递归的方式
 //        if (n == 1) return 1;
 //        if (n == 2) return 2;
 //        return climbStairs(n-1)+climbStairs(n-2);
         
+//        // 备忘录算法
+//        vector<int> demo(n+1,-1);
+//        return climb_stairs(0, n, demo);
         
-        // 动态规划
+        
         if(n == 1) return 1;
-        int first = 1,second = 2;
+        int first  = 1;
+        int second = 2;
         for (int i = 3; i <= n; i++) {
-            int third = first+second;
+            int third = first + second;
             first = second;
             second = third;
         }
         return second;
+        
+        
+//        // 动态规划
+//        if(n == 1) return 1;
+//        int first = 1,second = 2;
+//        for (int i = 3; i <= n; i++) {
+//            int third = first+second;
+//            first = second;
+//            second = third;
+//        }
+//        return second;
     }
 };
 

@@ -17,6 +17,7 @@
 #include "lc_26.hpp"
 #include "lc_27.hpp"
 #include "lc_38.hpp"
+#include "lc_53.hpp"
 #include "lc_58.hpp"
 #include "lc_66.hpp"
 #include "lc_67.hpp"
@@ -24,6 +25,8 @@
 #include "lc_70.hpp"
 #include "lc_83.hpp"
 #include "lc_88.hpp"
+#include "lc_198.hpp"
+#include "lc_322.hpp"
 #include "MILinkList.hpp"
 #include <vector>
 
@@ -115,6 +118,11 @@ int main(int argc, const char * argv[]) {
 //    Solution38 *s38 = new Solution38();
 //    cout<<s38->countAndSay(30)<<endl;
     
+//    Solution53 *s53 = new Solution53();
+////    vector<int> v1 = {-2,1,-3,4,-1,2,1,-5,4};
+//    vector<int> v1 = {-2};
+//    cout<<s53->maxSubArray(v1)<<endl;
+    
 //    Solution58 *s58 = new Solution58();
 //    cout<<"Hello World: "<<s58->lengthOfLastWord("Hello World")<<endl;
 //    cout<<"a : "<<s58->lengthOfLastWord("a ")<<endl;
@@ -141,8 +149,8 @@ int main(int argc, const char * argv[]) {
 //    cout<<"2147395600: "<<s69->mySqrt(2147395600)<<endl;
 //    cout<<"2147395599: "<<s69->mySqrt(2147395599)<<endl;
     
-    Solution70 *s70 = new Solution70();
-    cout<<s70->climbStairs(44)<<endl;
+//    Solution70 *s70 = new Solution70();
+//    cout<<s70->climbStairs(35)<<endl;
     
     /*
     nums1 = [1,2,3,0,0,0], m = 3
@@ -214,6 +222,20 @@ int main(int argc, const char * argv[]) {
 //        l = l->next;
 //    }
 //    cout<<endl;
+    
+    Solution198 *s198 = new Solution198();
+//    vector<int> v1 = {1,2,3,1};
+//    vector<int> v1 = {2,7,9,3,1};
+//     vector<int> v1 = {2,1,1,2};
+    vector<int> v1 = {4,1,2,7,5,3,1};
+    
+//    vector<int> v1 = {1,2};
+    cout<<s198->rob(v1)<<endl;
+  
+    
+//    Solution322 *s322 = new Solution322();
+//    vector<int> coins = {1,2,5};
+//    cout<<s322->coinChange(coins, 11)<<endl;
     
     return 0;
 }
