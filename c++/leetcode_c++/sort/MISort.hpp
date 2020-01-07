@@ -2,8 +2,8 @@
 //  MISort1.hpp
 //  leetcode_c++
 //
-//  Created by ethan on 2020/1/7.
-//  Copyright © 2020 ucloud. All rights reserved.
+//  Created by mediaios on 2020/1/7.
+//  Copyright © 2020 mediaios. All rights reserved.
 //
 
 #ifndef MISort1_hpp
