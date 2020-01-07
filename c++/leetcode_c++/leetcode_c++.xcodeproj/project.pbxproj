@@ -39,6 +39,8 @@
 		AA7EA6AC2354661500952361 /* lc_198.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lc_198.hpp; sourceTree = "<group>"; };
 		AA7EA6AF23559FBD00952361 /* lc_509.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lc_509.hpp; sourceTree = "<group>"; };
 		AA7EA6B22355A7E200952361 /* lc_322.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lc_322.hpp; sourceTree = "<group>"; };
+		AA7EA6B52355DFB000952361 /* lc_392.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lc_392.hpp; sourceTree = "<group>"; };
+		AAB5D2BF23C459E500FB2F29 /* MISort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MISort.hpp; sourceTree = "<group>"; };
 		AACDF77E2338DAD900BBE97E /* lc_88.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lc_88.hpp; sourceTree = "<group>"; };
 		AACDF781233A119C00BBE97E /* lc_38.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lc_38.hpp; sourceTree = "<group>"; };
 		AACDF784233B0D8D00BBE97E /* lc_67.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lc_67.hpp; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		AA49F68C23336996002BD9DA = {
 			isa = PBXGroup;
 			children = (
+				AAFCF49C23C3226300DE76B8 /* sort */,
 				AA7759A5233CB14100AB7764 /* datastructure */,
 				AA49F69723336996002BD9DA /* leetcode_c++ */,
 				AA49F69623336996002BD9DA /* Products */,
@@ -102,6 +105,7 @@
 				AACDF77E2338DAD900BBE97E /* lc_88.hpp */,
 				AA7EA6AC2354661500952361 /* lc_198.hpp */,
 				AA7EA6B22355A7E200952361 /* lc_322.hpp */,
+				AA7EA6B52355DFB000952361 /* lc_392.hpp */,
 				AA7EA6AF23559FBD00952361 /* lc_509.hpp */,
 				AA49F69823336996002BD9DA /* main.cpp */,
 			);
@@ -115,6 +119,14 @@
 				AA7759A6233CB15F00AB7764 /* MILinkList.cpp */,
 			);
 			path = datastructure;
+			sourceTree = "<group>";
+		};
+		AAFCF49C23C3226300DE76B8 /* sort */ = {
+			isa = PBXGroup;
+			children = (
+				AAB5D2BF23C459E500FB2F29 /* MISort.hpp */,
+			);
+			path = sort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +248,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -288,6 +301,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = macosx;
 			};
 			name = Release;

@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+
 #include "lc_01.hpp"
 #include "lc_07.hpp"
 #include "lc_09.hpp"
@@ -29,6 +30,8 @@
 #include "lc_322.hpp"
 #include "MILinkList.hpp"
 #include <vector>
+#include "MISort.hpp"
+
 
 void printVector(vector<int> &array)
 {
@@ -42,9 +45,22 @@ void printVector(vector<int> &array)
     }
 }
 
+void testSort()
+{
+    int a[] = {2,-7,-11,15,0,43,10,99};
+//    bubleSort(a, 8);
+//    selectSort(a,8);
+//    insertSort(a, 8);
+//    shellSort(a, 8);
+    quickSort(a, 8);
+}
+
 
 int main(int argc, const char * argv[]) {
     
+    testSort();
+    
+    return 0;
     
 //    vector<int> nums = {2,7,11,15};
 //    int target = 9;
