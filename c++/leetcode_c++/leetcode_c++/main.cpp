@@ -30,7 +30,9 @@
 #include "lc_322.hpp"
 #include "MILinkList.hpp"
 #include <vector>
-#include "MISort.hpp"
+//#include "MISort.hpp"
+#include "temp.hpp"
+#include "MISearch.hpp"
 
 
 void printVector(vector<int> &array)
@@ -55,12 +57,57 @@ void testSort()
     quickSort(a, 8);
 }
 
+void testLeetCode()
+{
+//    int num = reverse(-123);
+    
+//    bool isP = isPalidrome1(121);
+//    isP == true ? printf("true\n") : printf("false \n");
+    
+    // 罗马数字转整数
+//    int x1 = romanToInt("III");
+//    printf("III: %i \n",x1);
+//
+//    int x2 = romanToInt("IV");
+//    printf("IV: %i \n",x2);
+//
+//    int x3 = romanToInt("IX");
+//    printf("IX: %i \n",x3);
+//
+//    int x4 = romanToInt("LVIII");
+//    printf("LVIII: %i \n",x4);
+//
+//    int x5 = romanToInt("MCMXCIV");
+//    printf("MCMXCIV: %i \n",x5);
+    
+    
+    // 公共前缀
+//    vector<string> strs;
+////    strs.push_back("flower");
+////    strs.push_back("flow");
+////    strs.push_back("flight");
+//    strs.push_back("aa");
+//    strs.push_back("a");
+//    string res = longestCommonPrefix(strs);
+//    printf("最长前缀： %s\n",res.c_str());
+    
+    
+    
+    // 有效括号
+//    bool res = isvalid("}");
+//    string str = res ? "true" : "false";
+//    printf("%s\n",str.c_str());
+    
+    
+    // 去重复元素
+//    int nums[] = {3,2,2,3};
+//    vector<int> a(nums,nums+4);
+//    removeElement(a,3);
+    
+}
+
 
 int main(int argc, const char * argv[]) {
-    
-    testSort();
-    
-    return 0;
     
 //    vector<int> nums = {2,7,11,15};
 //    int target = 9;
@@ -189,16 +236,19 @@ int main(int argc, const char * argv[]) {
 //    cout<<endl;
     
     
-//    // 测试链表
-//    int a = 0;
-//    int *p = &a;
-//    MILinkList li;
-//    li.insert(5, 0);
-//    li.insert(4, 1);
-//    li.insert(12, 2);
-//    cout<<"链表长度："<<li.length()<<endl;
-//    cout<<"链表各个元素是:"<<endl;
-//    li.printList();
+    // 测试链表
+    int a = 0;
+    int *p = &a;
+    MILinkList li;
+    li.insert(5, 0);
+    li.insert(4, 1);
+    li.insert(12, 2);
+    cout<<"链表长度："<<li.length()<<endl;
+    cout<<"链表各个元素是:"<<endl;
+    li.printList();
+    
+    li.revert();
+    li.printList();
     
     
     
@@ -239,14 +289,14 @@ int main(int argc, const char * argv[]) {
 //    }
 //    cout<<endl;
     
-    Solution198 *s198 = new Solution198();
-//    vector<int> v1 = {1,2,3,1};
-//    vector<int> v1 = {2,7,9,3,1};
-//     vector<int> v1 = {2,1,1,2};
-    vector<int> v1 = {4,1,2,7,5,3,1};
-    
-//    vector<int> v1 = {1,2};
-    cout<<s198->rob(v1)<<endl;
+//    Solution198 *s198 = new Solution198();
+////    vector<int> v1 = {1,2,3,1};
+////    vector<int> v1 = {2,7,9,3,1};
+////     vector<int> v1 = {2,1,1,2};
+//    vector<int> v1 = {4,1,2,7,5,3,1};
+//
+////    vector<int> v1 = {1,2};
+//    cout<<s198->rob(v1)<<endl;
   
     
 //    Solution322 *s322 = new Solution322();

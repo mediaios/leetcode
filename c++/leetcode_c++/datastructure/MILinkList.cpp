@@ -121,3 +121,19 @@ void MILinkList::printList()
     }
     std::cout<<std::endl;
 }
+
+void MILinkList::revert()
+{
+    if(head == NULL) return;
+    MINode *pPre,*pCurrent,*pNext;
+    pPre = head;
+    pCurrent = head->next;
+    while (pCurrent) {
+        pNext = pCurrent->next;
+        pCurrent->next = pPre;
+        pPre = pCurrent;
+        pCurrent = pNext;
+    }
+    head->next = NULL;
+    head = pPre;
+}

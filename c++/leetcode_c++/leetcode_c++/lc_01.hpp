@@ -35,6 +35,23 @@ public:
             return b;
         }
     }
+    
+    vector<int> twoNumSum(vector<int> &nums,int target){
+        vector<int> b(2,-1);  // 存放结果
+        map<int,int> a;
+        for (int i = 0; i < nums.size(); i++) {
+            if (a.count(target-nums[i]) > 0) {
+                b[0] = a[target - nums[i]];
+                b[1] = i;
+                break;
+            }
+            
+            a[nums[i]] = i;
+        }
+        return b;
+        
+    }
+    
 };
 
 #endif /* lc_01_hpp */

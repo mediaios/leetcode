@@ -30,6 +30,7 @@ public:
     bool insert(int data,int index);
     void deleteNode(int index);
     void printList();
+    void revert(); // 单链表逆转 
 //    void exchange(int index1,int index2);
     
 private:
